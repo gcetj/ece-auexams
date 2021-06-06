@@ -61,10 +61,10 @@ form.addEventListener('submit', e => {
         return;
     }   
 
-    if (!checkTime()) {
-        alert("Answer Submission Time exceeded! Contact your Supervisor");
-        return;
-    }
+//     if (!checkTime()) {
+//         alert("Answer Submission Time exceeded! Contact your Supervisor");
+//         return;
+//     }
     const file = form.file.files[0];
     const fr = new FileReader();
     var d = new Date();
